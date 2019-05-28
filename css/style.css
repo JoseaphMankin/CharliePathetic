@@ -1,0 +1,45 @@
+/* ===== MAIN.CSS goes here ===== */
+
+body {
+	color: #f1803a;
+	background-color: #f1803a;
+	/* color: rgba(255, 255, 255, 0.8); */
+}
+
+/* Navbar */
+
+.logo {
+	height: 100%;
+}
+
+#landing {
+	height: 80vh;
+	background-image: url('../img/promo.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	z-index: -1;
+}
+
+#mainText {
+	margin-top: 30vh;
+}
+
+#intro {
+	margin-top: 50px;
+}
+
+#work {
+	background-color: rgb(61, 61, 61);
+}
+
+#p1 {
+	height: 350px;
+}
+
+/* Cards */
+.activator {
+	max-height: 400px;
+	top: 0;
+}
