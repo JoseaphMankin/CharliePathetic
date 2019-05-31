@@ -6,7 +6,7 @@
 		<!-- Compiled and minified CSS -->
 		<link
 			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"
+			href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
 		/>
 		<link
 			href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -25,9 +25,10 @@
 			<nav class="grey darken-3">
 				<div class="container">
 					<div class="nav-wrapper">
-						<img class="logo" src="./img/blackorange.jpg" alt="logo" />
+						<img class="brand-logo" src="./img/blackorange.jpg" alt="logo" />
+						<a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
 						<ul class="right hide-on-med-and-down" id="navList">
-							<li><a href="#landing">Home</a></li>
+							<li><a href="#pLanding">Home</a></li>
 							<li><a href="#intro">About</a></li>
 							<li><a href="#members">Members</a></li>
 							<li><a href="#music">Music</a></li>
@@ -36,17 +37,16 @@
 					</div>
 				</div>
 			</nav>
-			<!-- <ul id="slide-out" class="sidenav">
-				<li><a href="#landing">Home</a></li>
+			
+		</div>
+		<ul class="sidenav" id="mobile-demo">
+				<li><a href="#pLanding">Home</a></li>
 				<li><a href="#intro">About</a></li>
 				<li><a href="#members">Members</a></li>
 				<li><a href="#music">Music</a></li>
 				<li><a href="#shows">Shows</a></li>
-			</ul>
-			<a href="#" data-target="slide-out" class="sidenav-trigger"
-				><i class="material-icons">menu</i></a
-			> -->
-		</div>
+		  </ul>
+		
 
 		<!--Parallax Main Promo Photo-->
 		<div id="pLanding" class="parallax-container">
@@ -524,8 +524,9 @@
 		</footer>
 
 		<!-- Compiled and minified JavaScript -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
 		<script src="./js/main.js"></script>
 	</body>
 </html>

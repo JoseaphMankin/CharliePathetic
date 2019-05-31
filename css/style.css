@@ -8,7 +8,7 @@ body {
 
 /* Navbar */
 
-.logo {
+.brand-logo {
 	height: 100%;
 }
 
@@ -37,9 +37,9 @@ body {
 	margin-top: 30vh;
 }
 
-#intro {
+/* #intro {
 	margin-top: 50px;
-}
+} */
 
 #work {
 	background-color: rgb(61, 61, 61);
