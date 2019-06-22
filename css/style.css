@@ -60,3 +60,7 @@ body {
 	max-height: 400px;
 	top: 0;
 }
+
+.main-button {
+	border-radius: 0;
+}
