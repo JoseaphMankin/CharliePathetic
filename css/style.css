@@ -1,73 +1,59 @@
-/* ===== MAIN.CSS goes here ===== */
-
 body {
-	color: #f1803a;
-	background-color: #f1803a;
-	/* color: rgba(255, 255, 255, 0.8); */
+  color: #f1803a;
+  background-color: #f1803a;
 }
 
 /* Navbar */
-
 .brand-logo {
-	height: 100%;
+  height: 100%;
 }
 
-/* #landing {
-	height: 500px;
-	background-size: 100% 100%;
-	background-image: url('../img/promo.jpg');
-	background-position: center;
-} */
-
 #landing {
-	height: 85%;
-	background-image: url('../img/promo.jpg');
-	background-position: center;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	z-index: -1;
+  height: 85%;
+  background-image: url("../img/promo.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
 }
 
 .promo {
-	width: 100%;
-	height: auto;
+  width: 100%;
+  height: auto;
 }
 
 #mainText {
-	margin-top: 30vh;
+  margin-top: 30vh;
 }
 
-/* #intro {
-	margin-top: 50px;
-} */
-
 #work {
-	background-color: rgb(61, 61, 61);
+  background-color: #3d3d3d;
 }
 
 #pLanding {
-	width: 100%;
-	height: 90%;
+  width: 100%;
+  height: 90%;
 }
 
 #p1 {
-	height: 480px;
+  height: 480px;
 }
 
 /* Cards */
 .activator {
-	max-height: 400px;
-	top: 0;
+  max-height: 400px;
+  top: 0;
 }
 
 .main-button {
-	border-radius: 0;
+  border-radius: 0;
 }
 
 /* Parallax Containers */
 @media only screen and (max-width: 600px) {
-	.parallax-container {
-		height: 150px;
-	}
+  .parallax-container {
+    height: 150px;
+  }
 }
+/*# sourceMappingURL=style.css.map */

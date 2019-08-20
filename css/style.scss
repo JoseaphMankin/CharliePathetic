@@ -1,0 +1,73 @@
+// Main Color Scheme
+
+$colors: (
+	primary: #f1803a,
+	primary-light: lighten(#f1803a, 40%),
+	primary-dark: darken(#f1803a, 40%),
+	// accent: #662124,
+	background: rgb(61, 61, 61),
+);
+
+@function color($color-name) {
+	@return map-get($colors, $color-name);
+}
+
+body {
+	color: color(primary);
+	background-color: color(primary);
+}
+
+/* Navbar */
+
+.brand-logo {
+	height: 100%;
+}
+
+#landing {
+	height: 85%;
+	background-image: url('../img/promo.jpg');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	z-index: -1;
+}
+
+.promo {
+	width: 100%;
+	height: auto;
+}
+
+#mainText {
+	margin-top: 30vh;
+}
+
+#work {
+	background-color: color(background);
+}
+
+#pLanding {
+	width: 100%;
+	height: 90%;
+}
+
+#p1 {
+	height: 480px;
+}
+
+/* Cards */
+.activator {
+	max-height: 400px;
+	top: 0;
+}
+
+.main-button {
+	border-radius: 0;
+}
+
+/* Parallax Containers */
+@media only screen and (max-width: 600px) {
+	.parallax-container {
+		height: 150px;
+	}
+}
